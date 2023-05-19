@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function NavBar() {
   return (
-    <div>
+    <div className="sticky-top">
       <nav
         class="navbar navbar-expand-lg bg-body-tertiary"
         style={{ backgroundColor: "#008080" }}

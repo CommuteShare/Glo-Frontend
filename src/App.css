@@ -3,8 +3,8 @@
 }
 
 #app-name {
-font-family:Oswald;
-font-size: 25px;
+  font-family: Oswald;
+  font-size: 25px;
 }
 .navbar {
   height: 70px;
@@ -12,17 +12,16 @@ font-size: 25px;
 
 #nav-ul {
   color: white;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
 }
 
 #nav-ul:hover {
- color: black;
+  color: black;
 }
 
 #nav-btn {
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   font-weight: bold;
-  
 }
 
 #nav-btn:hover {
@@ -34,20 +33,20 @@ font-size: 25px;
   height: 85vh;
   object-fit: cover;
 }
- 
-#header-msg{
-position: absolute;
-width: auto ;
-top: 140px;
-left: 170px;
-text-align: center;
-padding: 0;
-margin: 0;
+
+#header-msg {
+  position: absolute;
+  width: auto;
+  top: 140px;
+  left: 170px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
 }
 
 #header-sub-msg {
   background-color: #008080;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
 }
 #sub-msg-ul {
   list-style: none;
@@ -64,21 +63,21 @@ margin: 0;
 }
 
 #sub-msg-ul li:hover {
-color: black;
+  color: black;
 }
 
 #header-text {
-  font-family: 'Fjalla One', sans-serif;
+  font-family: "Fjalla One", sans-serif;
   font-size: large;
 }
 
 #header-text-2 {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
 
 #img-btn {
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   color: black;
   font-weight: bolder;
 }
@@ -111,15 +110,13 @@ a:active {
   margin-top: 40px;
 }
 
-
 /* BODY */
 #steps-2-drive {
-  font-family: 'Fjalla One', sans-serif;
-
+  font-family: "Fjalla One", sans-serif;
 }
 
-#steps ,img{
-width: 100px;
+#steps-2-drive img {
+  width: 100px;
 }
 
 #steps-btn {
@@ -128,12 +125,10 @@ width: 100px;
 
 #steps-btn:hover {
   color: white;
-
 }
 
 #arrowImg {
   width: 100px;
-
 }
 
 /* form */
@@ -159,14 +154,13 @@ width: 100px;
 }
 
 #form input {
-    width: 400px;
-    padding: 10px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    background-color: rgba(128, 128, 128, 0.397);
-    border: none;
-    font-size: 20px;
-
+  width: 400px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: rgba(128, 128, 128, 0.397);
+  border: none;
+  font-size: 20px;
 }
 
 #submitBtn {
@@ -178,9 +172,47 @@ width: 100px;
   font-weight: bold;
   margin-top: 50px;
   margin-bottom: 30px;
+  font-family: "Roboto Slab", serif;
 }
 
 #signUp-text {
   width: 400px;
   text-align: justify;
+}
+
+/* BODY2 */
+
+#body2Cover {
+  background-color: rgba(220, 220, 220, 0.226);
+}
+
+#bookRideImgCover {
+  margin-left: 190px;
+}
+
+#bookRIdeImg {
+  width: 400px;
+  height: 400px;
+}
+
+#bookRideText {
+  /* width: 70%; */
+}
+
+#bookRideBtn {
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  width: 400px;
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-family: "Roboto Slab", serif;
+}
+
+#bookRideBtn:hover {
+  color: white;
 }
